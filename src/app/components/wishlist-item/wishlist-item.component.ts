@@ -7,7 +7,6 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WishlistItem } from 'src/app/interfaces/wishlist.interface';
-import { WishlistService } from 'src/app/wishlist.service';
 
 @Component({
   selector: 'app-wishlist-item',
