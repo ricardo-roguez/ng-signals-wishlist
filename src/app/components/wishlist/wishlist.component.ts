@@ -2,7 +2,7 @@ import { Component, computed, inject, OnInit, Signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WishlistItemComponent } from '../wishlist-item/wishlist-item.component';
 import { NewWishlistFormComponent } from '../new-wishlist-form/new-wishlist-form.component';
-import { WishlistService } from 'src/app/wishlist.service';
+import { WishlistService } from '../../wishlist.service';
 
 @Component({
   selector: 'app-wishlist',

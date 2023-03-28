@@ -6,7 +6,8 @@ import {
   Input,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WishlistItem } from 'src/app/interfaces/wishlist.interface';
+import { WishlistService } from '../../wishlist.service';
+import { WishlistItem } from '../../interfaces/wishlist.interface';
 
 @Component({
   selector: 'app-wishlist-item',

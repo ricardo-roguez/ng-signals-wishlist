@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WishlistItem } from 'src/app/interfaces/wishlist.interface';
-import { WishlistService } from 'src/app/wishlist.service';
+import { WishlistItem } from '../../interfaces/wishlist.interface';
+import { WishlistService } from '../../wishlist.service';
 
 @Component({
   selector: 'app-new-wishlist-form',
